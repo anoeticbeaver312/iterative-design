@@ -113,6 +113,10 @@ iframe {
     min-height: 50vh;
 }
 
+i {
+    color: var(--orange-1);
+}
+
 /* Content */
 
 .top-links {
@@ -128,8 +132,6 @@ iframe {
     background-color: var(--purple-2);
     color: white;
 
-    text-decoration: underline;
-
     transition: transform 0.2s;
 }
 
@@ -138,19 +140,7 @@ iframe {
 
     transform: scale(105%);
     
-    text-decoration: none;
-
     opacity: 100%;
-}
-
-.startup-link::before {
-    content: "⚡️";
-    text-decoration: none;
-}
-
-.prototype-link::before {
-    content: "🛠";
-    text-decoration: none;
 }
 
 main {
