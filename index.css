@@ -244,3 +244,9 @@ hr {
 section {
     margin-bottom: 1rem;
 }
+
+.before-photos {
+    width: auto;
+    height: 16rem;
+    padding: 1rem;
+}
