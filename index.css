@@ -244,3 +244,7 @@ hr {
 section {
     margin-bottom: 1rem;
 }
+
+.sketch-images {
+    width: 75%;
+}
